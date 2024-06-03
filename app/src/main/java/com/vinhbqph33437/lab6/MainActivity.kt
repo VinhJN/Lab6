@@ -32,9 +32,10 @@ class MainActivity : ComponentActivity() {
 //                    aislePositionInColumn = 5
 //                ), totalSeatsPerRow = 9
 //            )
-            val mainViewModel: MainViewModel by viewModels()
-            val moviesState = mainViewModel.movies.observeAsState(initial = emptyList())
-            MovieScreen(moviesState.value)
+//            val mainViewModel: MainViewModel by viewModels()
+//            val moviesState = mainViewModel.movies.observeAsState(initial = emptyList())
+//            MovieScreen(moviesState.value)
+            ScreenNavigation()
         }
     }
 
