@@ -1,4 +1,4 @@
-package com.vinhbqph33437.lab6
+package com.vinhbqph33437.lab6.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
